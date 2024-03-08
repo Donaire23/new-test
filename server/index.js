@@ -22,7 +22,7 @@ const Register = require('./model/register')
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://todo-todoist.vercel.app/"],
+    origin: ["https://todo-todoist.vercel.app"],
     methods: ["POST, GET, DELETE, PUT"],
     credentials: true,
   })
